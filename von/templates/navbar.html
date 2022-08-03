@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'home' %}">VONETTA'S WEBSITE</a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <a class="nav-link" href="/">Home </a>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-<nav class="navbar navbar-inverse  navbar-expand-lg">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{% url 'home' %}">VONETTA'S WEBSITE</a>
-    </div>
-  </div>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ">
-      
-        <a class="nav-link" href="/">Home </a>
-      
-        <a class="nav-link " href="#">About </a>
-        
-        <a class="nav-link " href="#">Projects </a>
+          <a class="nav-link" href="#">About </a>
 
-        <a class="nav-link " href="#">Resume </a>
+          <a class="nav-link" href="#">Projects </a>
 
-        <a class="nav-link " href="#">Contact </a>
-          
-        
+          <a class="nav-link" href="#">Resume </a>
 
-        
-    </ul>
-
-       
-    
-  </div>
- 
-</nav>
-
-</body>
+          <a class="nav-link" href="#">Contact </a>
+        </ul>
+      </div>
+    </nav>
+  </body>
 </html>
